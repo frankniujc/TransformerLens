@@ -803,7 +803,7 @@ files = [
 
 [package.dependencies]
 aiohttp = "*"
-dill = ">=0.3.0,<0.3.9"
+dill = "*"
 filelock = "*"
 fsspec = {version = ">=2023.1.0,<=2024.2.0", extras = ["http"]}
 huggingface-hub = ">=0.19.4"
@@ -1264,7 +1264,7 @@ fsspec = ">=2023.5.0"
 packaging = ">=20.9"
 pyyaml = ">=5.1"
 requests = "*"
-tqdm = ">=4.42.1"
+tqdm = "*"
 typing-extensions = ">=3.7.4.3"
 
 [package.extras]
@@ -1487,7 +1487,7 @@ files = [
 
 [package.dependencies]
 numpy = ">=1.20.0"
-typeguard = ">=2.13.3"
+typeguard = "*"
 typing-extensions = ">=3.7.4.1"
 
 [[package]]
@@ -1839,8 +1839,8 @@ jinja2 = ">=3.0.3"
 json5 = ">=0.9.0"
 jsonschema = ">=4.18.0"
 jupyter-server = ">=1.21,<3"
+requests = "*"
 packaging = ">=21.3"
-requests = ">=2.31"
 
 [package.extras]
 docs = ["autodoc-traits", "jinja2 (<3.2.0)", "mistune (<4)", "myst-parser", "pydata-sphinx-theme", "sphinx", "sphinx-copybutton", "sphinxcontrib-openapi (>0.8)"]
