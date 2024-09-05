@@ -6,7 +6,7 @@
     packages=[{include="transformer_lens"}]
     readme="README.md"
     # Version is automatically set by the pipeline on release
-    version="0.0.0"
+    version="2.4.1"
 
     [tool.poetry.scripts]
         build-docs="docs.make_docs:build_docs"
@@ -37,6 +37,7 @@
         transformers=">=4.37.2"
         typing-extensions="*"
         wandb=">=0.13.5"
+        dill="0.3.7"
         python-ta="2.7.0"
         requests="2.31.0"
         typeguard="4.1.5"
