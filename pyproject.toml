@@ -40,7 +40,6 @@
         python-ta="2.7.0"
         requests="2.31.0"
         typeguard="4.1.5"
-        dill="0.3.8"
 
     [tool.poetry.group]
         [tool.poetry.group.dev.dependencies]
